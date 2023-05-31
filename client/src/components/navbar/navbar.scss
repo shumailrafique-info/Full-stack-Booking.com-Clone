@@ -1,0 +1,30 @@
+@import "../../App.scss";
+.navbar {
+  font-size: 1.2rem;
+  height: 50px;
+  background-color: $blueColor;
+  display: flex;
+  justify-content: center;
+  > .navContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      font-weight: bold;
+    }
+    .navItems {
+      > button {
+        margin-left: 20px;
+        bottom: none;
+        padding: 5px 10px;
+        font-size: 1.1rem;
+
+        cursor: pointer;
+        color: $blueColor;
+      }
+    }
+  }
+}
